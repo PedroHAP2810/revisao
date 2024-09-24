@@ -33,7 +33,7 @@ export default function page() {
                                 <Card.Img src={"https://image.tmdb.org/t/p/w500/" + melhor.poster_path} />
                                 <Card.Body>
                                     <Card.Title>{melhor.name}</Card.Title>
-                                    <p><b>Nome: {melhor.original_name}</b></p>
+                                    <p><b>Nome:: {melhor.original_name}</b></p>
                                     <p><b>Lançamento: {melhor.first_air_date}</b></p>
                                     <p><b>Nota: {melhor.vote_average} ⭐</b></p>
                                 </Card.Body>
