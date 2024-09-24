@@ -35,7 +35,7 @@ return (
                                         <Card.Title>{serie.original_title}</Card.Title>
                                         <p><b>Nome: {serie.original_name}</b></p>
                                         <p><b>Lançamento: {serie.first_air_date}</b></p>
-                                        <p><b>Nota:: {serie.vote_average} ⭐</b></p>
+                                        <p><b>Nota: {serie.vote_average} ⭐</b></p>
                                     </Card.Body>
                                     <Card.Footer className="text-end">
                                         <Button href={"/series/" + serie.id}>Detalhes</Button>
